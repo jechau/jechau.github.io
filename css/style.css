@@ -69,14 +69,14 @@ textarea:hover {
 button {
     border: 0;
     font-weight: 600;
-    background-color: #FF7BAC;
+    background-color: #ff8acf;
     color: white;
     padding: 5px;
 }
 
 button:hover {
-    background-color: floralwhite;
-    color: #FF7BAC;
+    background-color: #5bdc61;
+    color: white;
 }
 
 input {

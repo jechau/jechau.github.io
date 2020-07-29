@@ -32,6 +32,17 @@ font-style: italic;
 	margin-right:auto;
 }
 
+.leftimg {
+	display:block;
+	float:left;
+	padding:0 20px 20px 0;
+}
+.rightimg {
+	display:block;
+	float:right;
+	padding:20px 0 20px 0;
+}
+
 a {
     text-decoration: none;
     color: #ff8acf;

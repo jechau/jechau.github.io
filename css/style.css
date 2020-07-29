@@ -298,6 +298,8 @@ h6 {}
 
 .footer,
 .push {
+	position:absolute;
+	bottom:0;
     color: lightgray;
     text-align: center;
     clear: both;

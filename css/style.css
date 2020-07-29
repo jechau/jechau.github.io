@@ -32,12 +32,18 @@ font-style: italic;
 	margin-right:auto;
 }
 
-.leftimg {
+.col {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.left {
 	display:block;
 	float:left;
 	padding:0 20px 20px 0;
 }
-.rightimg {
+.right {
 	display:block;
 	float:right;
 	padding:20px 0 20px 0;

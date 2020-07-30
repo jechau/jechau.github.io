@@ -1,3 +1,7 @@
+*
+{
+    box-sizing:border-box;
+}
 html,
 body {
     font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -16,38 +20,6 @@ font-size:.8em;
 color:gray;
 font-style: italic;
 
-}
-
-.profile {
-	width:25%;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-.shop {
-	width:70%;
-	display:block;
-	margin-left:auto;
-	margin-right:auto;
-}
-
-.col {
-	display:table;
-	width:100%;
-}
-
-.left {
-	position:absolute;
-	width:50%;
-	left:0;
-	padding:0 20px 20px 0;
-}
-.right {
-	position:absolute;
-	padding:20px 0 20px 0;
-	right:0;
-	width:50%
 }
 
 a {
@@ -72,6 +44,40 @@ ul.star {
 
 ::selection {
     background-color: floralwhite;
+}
+
+.row:after {
+    content:"  ";
+    display:table;
+    clear:both;
+    margin-bottom:20px;
+}
+
+.column {
+    float:left;
+    width:50%;
+    padding:10px;
+}
+.colimg {
+    max-width:100%;
+}
+
+.row p {
+    margin:0;
+    text-align:left;
+    padding:0px;
+}
+
+h3.lio {
+    font-weight:400;
+    font-size:1.5em;
+    margin:0;
+    padding-bottom:10px;
+}
+
+h4.basket {
+    margin:0 auto;
+    text-align:center;
 }
 
 input,
@@ -198,7 +204,6 @@ padding:25px;
 
 .main {
     vertical-align: top;
-    padding-top: 40px;
     position: relative;
     width: 80%;
     height: auto;
@@ -288,10 +293,6 @@ h2 {
     text-transform: uppercase;
 }
 
-h3 {
-    
-}
-
 h4,
 h5,
 h6 {}
@@ -315,14 +316,10 @@ h6 {}
     .logo {
         text-align: center;
         margin: 0 auto;
-        width: 70%;
+        width: 100%;
         margin-top: -50px;
         margin-bottom: 40px;
     }
-	
-	.shop {
-		width:25%;
-	}
     .folio {
         margin:0 auto;
         width:90%;
@@ -351,6 +348,9 @@ h6 {}
         position: relative;
         display: block;
         width: 100%;
+    }
+    .column {
+        width:100%;
     }
     .box3 {
         width: 95%;

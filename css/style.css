@@ -62,7 +62,7 @@ a.button:last-of-type {
 	width: 100%;
 	color: white;
 	text-align: center;
-	margin-top:10%;
+	margin-top:7%;
 }
 
 @media screen and (max-width: 700px) {

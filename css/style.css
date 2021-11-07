@@ -25,14 +25,14 @@ body {
 .logo {
 	display:block;
 	width:150px;
-	margin: 25px auto 30px auto;
+	margin: 25px auto 50px auto;
 	text-align: center;
 }
 
 a.button {
 	text-align:center;
 	width:35%;
-	margin:30px auto;
+	margin:25px auto;
 	background-color: white;
 	color: #0865FF;
 	padding:15px 30px;
